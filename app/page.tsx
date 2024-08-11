@@ -8,7 +8,7 @@ import Reviews from "@/components/molecules/reviews";
 
 export default function Home() {
   return (
-    <div className="pt-10 md:pt-16 xl:pt-20">
+    <div className="pt-10 md:pt-16 xl:pt-20 bg-white">
       <div className="lg:flex lg:items-center bg-[#2624A8] lg:h-[460px] pb-5 lg:pb-0 xl:h-[560px] 2xl:h-[700px]">
         <div className="xl:pl-20 2xl:pl-28 lg:pl-16 flex flex-col items-center lg:items-start">
           <h1 className="2xl:text-7xl text-3xl sm:text-4xl md:text-5xl xl:text-6xl text-white lg:leading-[130%] leading-[110%] text-center mt-10 lg:mt-0 lg:text-start font-bold">
