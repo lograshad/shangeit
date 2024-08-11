@@ -1,7 +1,7 @@
 import Image from "next/image";
 import heroImg from "@/public/images/hero.png";
 import blurImg from "@/public/images/Blur BG.png";
-import iphoneImg from "@/public/images/iphone.png";
+import iphoneImg from "@/public/images/iPhone.png";
 import Features from "@/components/molecules/features";
 import HowItWorks from "@/components/molecules/how-it-works";
 import Reviews from "@/components/molecules/reviews";
