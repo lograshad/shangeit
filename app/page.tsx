@@ -38,8 +38,8 @@ export default function Home() {
         </div>
       </div>
       <Features />
-      <div>
-        <div className="text-2xl lg:text-3xl xl:text-5xl font-bold text-center mt-10 mb-3 sm:mt-0 sm:mb-5 md:mb-10">Let’s get you started</div>
+      <div className="bg-white">
+        <div className="text-2xl lg:text-3xl xl:text-5xl font-bold text-center mt-10 mb-3 sm:mt-0 sm:mb-5 text-black md:mb-10">Let’s get you started</div>
         <iframe
           className="w-[90%] sm:w-4/5 2xl:w-3/5 h-[250px] sm:h-[300px] lg:h-[500px] mx-auto bg-black rounded-xl"
           src="https://www.youtube.com/embed/tgbNymZ7vqY"

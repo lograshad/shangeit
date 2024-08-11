@@ -27,8 +27,8 @@ const Reviews = () => {
         }
     ]
     return (
-        <div>
-            <div className="text-2xl lg:text-3xl xl:text-5xl font-bold text-center -mb-10 mt-20">What people are saying</div>
+        <div className="bg-[#FBFBFB]">
+            <div className="text-2xl lg:text-3xl xl:text-5xl font-bold text-center -mb-10 mt-20 text-black">What people are saying</div>
             <div className="w-[60%] sm:w-[70%]  lg:w-[85%] mx-auto">
                 <Carousel className="w-full lg:mt-10">
                     <CarouselContent>
@@ -36,9 +36,9 @@ const Reviews = () => {
                             reviews.map((review, index) => (
                                 <CarouselItem key={index} className="w-full">
                                     <div className="flex flex-col items-center mt-20">
-                                        <div className="text-xs sm:text-sm font-normal leading-[20px] mb-7">{review.review}</div>
+                                        <div className="text-xs sm:text-sm font-normal leading-[20px] text-black mb-7">{review.review}</div>
                                         <Image src={review.image} width={60} height={60} alt={review.name} />
-                                        <div className="mt-5 mb-2 sm:text-xl lg:text-2xl font-bold">{review.name}</div>
+                                        <div className="mt-5 mb-2 sm:text-xl lg:text-2xl font-bold text-black">{review.name}</div>
                                         <Image width={104} height={16} src="/images/stars.png" alt="ratings" />
                                     </div>
                                 </CarouselItem>

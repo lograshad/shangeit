@@ -29,7 +29,7 @@ const Features = () => {
         },
     ]
     return (
-        <div className="lg:pt-16 pt-10 xl:pt-20">
+        <div className="lg:pt-16 pt-10 xl:pt-20 bg-white">
             <div className="text-black text-2xl lg:text-3xl xl:text-5xl font-bold text-center sm:mb-16 lg:mb-20 xl:mb-32">Our Features</div>
             <div className="lg:w-4/5 w-[90%] sm:w-5/6 xl:w-2/3 mx-auto">
                 {
@@ -38,7 +38,7 @@ const Features = () => {
                             <Image src={feature.image} alt={feature.title} width={560} height={560} className="h-auto xl:w-[560px] lg:w-[450px] w-[200px] sm:w-[350px]" />
                             <div className="w-full sm:w-1/2">
                                 <h4 className="text-[#0D084D] font-bold text-xl lg:text-2xl">{feature.title}</h4>
-                                <p className="text-sm lg:text-lg font-normal mt-4">{feature.description}</p>
+                                <p className="text-sm lg:text-lg font-normal text-black mt-4">{feature.description}</p>
                             </div>
                         </div>
                     ))

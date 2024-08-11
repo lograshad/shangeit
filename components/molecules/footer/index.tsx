@@ -14,12 +14,12 @@ const Footer = () => {
             <div className="w-[85%] mx-auto flex flex-col md:flex-row items-start justify-between z-20 relative">
                 <Image src="/logo.svg" alt="shange it" width={211} height={58}  className="w-[130px] sm:w-[160px] md:w-[211px]"/>
                 <div>
-                    <div className="font-bold text-sm sm:text-base md:text-lg mb-2 sm:mb-3 md:mb-5">Quick Access</div>
+                    <div className="font-bold text-sm sm:text-base md:text-lg mb-2 sm:mb-3 text-black md:mb-5">Quick Access</div>
                     <ul>
                         {
                             links.map((link, index) => (
                                 <li key={index}>
-                                    <Link className="text-sm font-normal hover:font-semibold" href={link.href}>{link.label}</Link>
+                                    <Link className="text-sm font-normal text-black hover:font-semibold" href={link.href}>{link.label}</Link>
                                 </li>
                             ))
                         }

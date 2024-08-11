@@ -53,7 +53,7 @@ export default function MobileNavigation({ links }: { links: { href: string, lab
                                         {
                                             links.map((link, index) => (
                                                 <li key={index}>
-                                                    <Link href={link.href} className='font-normal hover:font-semibold text-sm' onClick={()=> {
+                                                    <Link href={link.href} className='font-normal hover:font-semibold text-black text-sm' onClick={()=> {
                                                         setSidebarOpen(false);
                                                     }}>
                                                         {link.label}
