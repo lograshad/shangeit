@@ -50,7 +50,7 @@ export default function Home() {
       </div>
       <HowItWorks />
       <Reviews />
-      <div className="h-[150px] sm:h-[200px] md:h-[300px] lg:h-[450px] relative mt-10 md:mt-20 lg:mt-64">
+      <div className="h-[150px] sm:h-[200px] md:h-[300px] lg:h-[450px] relative mt-10 md:mt-20 lg:mt-64 bg-white">
         <div className="flex items-center h-full bg-gradient rounded-2xl w-[85%] mx-auto">
           <div className="pl-5 md:pl-10 lg:pl-28">
             <div className="lg:text-3xl xl:text-4xl mb-6 text-black leading-[130%] font-bold">Download now on</div>

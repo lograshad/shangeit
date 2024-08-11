@@ -27,7 +27,7 @@ const Reviews = () => {
         }
     ]
     return (
-        <div className="bg-[#FBFBFB] px-5">
+        <div className="bg-[#FBFBFB] py-5">
             <div className="text-2xl lg:text-3xl xl:text-5xl font-bold text-center -mb-10 mt-20 text-black">What people are saying</div>
             <div className="w-[60%] sm:w-[70%]  lg:w-[85%] mx-auto">
                 <Carousel className="w-full lg:mt-10">
