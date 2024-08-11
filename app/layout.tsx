@@ -19,12 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='bg-white' style={{ fontFamily: 'MyFont' }}>
+      <body className="bg-white" style={{ fontFamily: 'MyFont' }}>
         <Navbar />
         <div className="bg-white">
         {children}
-        </div>
         <Footer/>
+        </div>
       </body>
     </html>
   );
